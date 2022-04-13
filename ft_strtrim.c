@@ -6,7 +6,7 @@
 /*   By: lancelot <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/12 14:56:44 by lancelot          #+#    #+#             */
-/*   Updated: 2022/04/13 01:11:56 by lancelot         ###   ########.fr       */
+/*   Updated: 2022/04/13 23:21:31 by lancelot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,11 +69,4 @@ char	*ft_strtrim(const char *s1, const char *set)
 		return (NULL);
 	ft_strlcpy(copy, s1 + first_index, size_s1 + 1);
 	return (copy);
-}
-
-int		main(void)
-{
-	char	str[] = "lancelot"; //==>ce
-	printf("%s", ft_strtrim(str, "lot"));
-	return 0;
 }

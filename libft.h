@@ -6,7 +6,7 @@
 /*   By: lsaint-l <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/27 23:07:21 by lsaint-l          #+#    #+#             */
-/*   Updated: 2022/04/11 20:00:33 by lsaint-l         ###   ########.fr       */
+/*   Updated: 2022/04/13 16:27:25 by lancelot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ char	*ft_substr(const char *s, unsigned int start, size_t len);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 char	*ft_strjoin(const char *s1, const char *s2);
 char 	*ft_strtrim(const char *s1, const char *set);
+char 	*ft_itoa(int n);
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
