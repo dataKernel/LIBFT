@@ -6,22 +6,14 @@
 /*   By: lancelot <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 16:32:47 by lancelot          #+#    #+#             */
-/*   Updated: 2022/04/13 23:42:52 by lancelot         ###   ########.fr       */
+/*   Updated: 2022/04/14 11:53:03 by lancelot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include <string.h>
 #include "libft.h"
-
-int	main(void)
-{
-	char *i1 = ft_itoa(-1234);
-	printf("%i", (strcmp(i1, "-1234")));
-	return(0);
-}
 
 static	int size_int(int n)
 {
