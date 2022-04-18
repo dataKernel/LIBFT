@@ -6,7 +6,7 @@
 /*   By: lsaint-l <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/27 23:07:21 by lsaint-l          #+#    #+#             */
-/*   Updated: 2022/04/14 11:43:36 by lancelot         ###   ########.fr       */
+/*   Updated: 2022/04/17 17:15:36 by lancelot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,8 @@ void	*ft_memmove(void *dst, const void *src, size_t len);
 void	ft_bzero(void *s, size_t n);
 void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *str, int fd);
-
+void	ft_putendl_fd(char *s, int fd);
+void 	ft_putnbr_fd(int n, int fd);
 
 char	*ft_strdup(const char *s1);
 char	*ft_strchr(const char *s, int c);
@@ -34,8 +35,9 @@ char	*ft_strrchr(const char *s, int c);
 char	*ft_substr(const char *s, unsigned int start, size_t len);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 char	*ft_strjoin(const char *s1, const char *s2);
-char 	*ft_strtrim(const char *s1, const char *set);
-char 	*ft_itoa(int n);
+char	*ft_strtrim(const char *s1, const char *set);
+char	*ft_itoa(int n);
+char	**ft_split(const char *s, char c);
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
