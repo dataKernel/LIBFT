@@ -6,13 +6,14 @@
 /*   By: lsaint-l <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/04 14:14:07 by lsaint-l          #+#    #+#             */
-/*   Updated: 2022/04/21 11:06:31 by lancelot         ###   ########.fr       */
+/*   Updated: 2022/04/22 13:09:08 by lancelot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
+#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {

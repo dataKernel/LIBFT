@@ -6,7 +6,7 @@
 /*   By: lsaint-l <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/27 23:07:21 by lsaint-l          #+#    #+#             */
-/*   Updated: 2022/04/22 11:39:26 by lancelot         ###   ########.fr       */
+/*   Updated: 2022/04/22 14:38:13 by lancelot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,7 @@ void	ft_lstadd_back(t_list **lst, t_list *new);
 void	ft_lstdelone(t_list *lst, void (*del)(void*));
 void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
+void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 
 char	*ft_strdup(const char *s1);
 char	*ft_strchr(const char *s, int c);
