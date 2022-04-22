@@ -6,7 +6,7 @@
 /*   By: lancelot <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/12 14:56:44 by lancelot          #+#    #+#             */
-/*   Updated: 2022/04/13 23:21:31 by lancelot         ###   ########.fr       */
+/*   Updated: 2022/04/18 13:24:06 by lancelot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ static int	check_last_index(char const *s1, char const *set)
 char	*ft_strtrim(const char *s1, const char *set)
 {
 	int		size_s1;	
-	int 	first_index;
+	int		first_index;
 	char	*copy;
 
 	if (!s1 || !set)
@@ -65,7 +65,7 @@ char	*ft_strtrim(const char *s1, const char *set)
 	first_index = check_first_index(s1, set);
 	size_s1 = check_last_index(s1 + first_index, set) + 1;
 	copy = malloc(sizeof(char) * (size_s1 + 1));
-	if(!copy)
+	if (!copy)
 		return (NULL);
 	ft_strlcpy(copy, s1 + first_index, size_s1 + 1);
 	return (copy);
