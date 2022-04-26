@@ -37,7 +37,8 @@ all: ${NAME}
 
 clean: 
 	${RM} ${OBJS}
-
+	${RM} ${BONUS_OBJS}
+	
 fclean: clean
 	${RM} ${NAME} 
 
