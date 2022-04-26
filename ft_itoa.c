@@ -6,7 +6,7 @@
 /*   By: lancelot <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 16:32:47 by lancelot          #+#    #+#             */
-/*   Updated: 2022/04/18 13:30:12 by lancelot         ###   ########.fr       */
+/*   Updated: 2022/04/23 10:42:16 by lancelot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ static int	size_int(int n)
 static void	fill(char *str, int size_str, bool check_negative, unsigned int n)
 {
 	int		i;
-
+	
 	i = size_str - 1;
 	str[i + 1] = '\0';
 	while (i >= 0)
